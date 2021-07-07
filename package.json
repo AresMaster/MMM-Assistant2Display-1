@@ -1,14 +1,17 @@
 {
   "name": "MMM-Assistant2Display",
-  "version": "2.3.17",
+  "version": "2.7.0",
+  "rev": "050721-1",
   "description": "GoogleAssistant Display module",
   "main": "MMM-Assistant2Display.js",
   "scripts": {
     "preinstall": "installer/preinstall.sh",
     "postinstall": "installer/postinstall.sh",
     "update": "installer/update.sh",
+    "rebuild": "installer/rebuild.sh",
     "librespot": "installer/librespot.sh",
-    "spotify": "node installer/spotify-setup.js"
+    "spotify": "node installer/spotify-setup.js",
+    "cvlc": "node installer/cvlc.js"
   },
   "keywords": [
     "magic mirror",
